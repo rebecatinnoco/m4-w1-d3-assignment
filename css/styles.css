@@ -44,12 +44,15 @@ img {
 }
 
 #images {
-  margin-right: 300px;
-  margin-left: 300px;
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   margin-top: 5px;
 }
 #images .catalog {
-  display: inline-block;
+  text-align: center;
   margin: 0.5em 0.5em 0.5em 0.5em;
 }
 #images .desc {
@@ -63,5 +66,4 @@ img {
 }
 #images .btn {
   background-color: #fff;
-  margin-left: 40px;
 }/*# sourceMappingURL=styles.css.map */
